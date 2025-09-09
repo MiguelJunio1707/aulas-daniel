@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="">
+    <h1>Formulário de Cadastro</h1>
+        <fieldset>
+            <legend>dados do aluno</legend>
+    <label for="Inome">Nome:</label><br>
+    <input type="text" id="Inome" placeholder="Digite seu nome completo">
+    <br><br>
+    <label for="Igmail">Digite seu e-mail:</label><br>
+    <input type="text" name="" id="Igmail" placeholder="Digite seu e-mail">
+    <br><br>
+    <label for="CPF">CPF:</label><br>
+    <input type="number" placeholder="Digite seu CPF">
+    <br><br>
+    <label for="Inumero">Digite seu telefone:</label><br>
+    <input type="number" id="Inumero" placeholder="Digite seu telefone">
+    <br><br>
+    <label for="Idatadenasc">Data de nascimento:</label><br>
+    <input type="date" id="Idatadenasc" placeholder="Selecione sua data de nascimento">
+    <br><br>
+    <label for="Igenero">Gênero:</label><br>
+    <input type="radio" name="sexo" id="Imasculino"> <label for="Imasculino">Masculino</label>
+    <input type="radio" name="sexo" id="Ifeminino"> <label for="Ifeminino">Feminino</label>
+    <br><br>
+    <label for="Iendereço">Digite seu endereço</label><br>
+    <input id="Iendereço" placeholder="Digite seu endereço">
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Filiação</legend>
+            <label for="pai">Nome do pai:</label><br>
+            <input type="text" name="" id="pai" placeholder="Digite o nome do seu pai">
+            <br><br>
+            <label for="mae">Nome da mãe:</label><br>
+            <input type="text" id="mae" placeholder="Digite o nome da sua mãe">
+            <br><br>
+            <label for="numero">Numero para contato</label><br>
+            <input type="text" name="" id="numero" placeholder="Digite um numero de contato">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Cursos</legend>
+            <label for="Imatricula">Matricula:</label><br>
+            <input type="text" id="Imatricula" placeholder="Digite sua matricula">
+            <br><br>
+            <label for="">Selecione sua Diciplina:</label><br>
+            <select name="Diciplinas" id="materias">
+                <option value="TI">TI</option>
+                <option value="TA">TA</option>
+                <option value="TRH">TRH</option>
+            </select>
+            <label for=""></label>
+        </fieldset>
+        <br>
+        </form>
+        <input type="submit" value="Cadastrar">
+</body>
+</html>
