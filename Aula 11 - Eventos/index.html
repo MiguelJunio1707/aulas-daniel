@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos | Miguel</title>
+</head>
+    <style>
+        .contPerson{
+            color: white;
+            background-color: black;
+            width: 150px;
+            height: 40px;
+            padding: 20px;
+        }
+    </style>
+<body>
+    <h2>Eventos - onCLick</h2>
+    <button onclick="CarCont()">Carregar Conteúdo</button>
+    <p id="conteudo"></p>
+    
+    <!-- Eventos - onMouseOver onMouseOut -->
+
+    <h2>Eventos - onMouseOver onMouseOur</h2>
+    <div onmouseover="mouseOver()" onmouseout="mouseOut()" class="contPerson" id="mouseAlt">Passe o Mouse</div>
+
+    <!-- Evento - onChange onKeyout -->
+
+    <h2>Evento - onChange onKeyout</h2>
+    <form action="">
+    Nome: <input type="text" name="nome" id="nome" onchange="convTexto()"><br><br>
+    Senha: <input type="password" name="senha" id="senha" onkeyup="validarSenha()"> 
+    
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

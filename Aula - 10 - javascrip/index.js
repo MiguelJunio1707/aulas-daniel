@@ -190,21 +190,22 @@
 
 // arrays
 
-var frutas = ["abacate","Maça", "Melancia", "Banana","Manga","Abacaxi","Uva"];
+// var frutas = ["abacate","Maça", "Melancia", "Banana","Manga","Abacaxi","Uva"];
 
-// Contar a quantidade de itens do array
+// // Contar a quantidade de itens do array
 
-document.write(`Quantidade de frutas: ${frutas.length}<hr>`);
+// document.write(`Quantidade de frutas: ${frutas.length}<hr>`);
 
-// Acessar a primeira item do meu array
+// // Acessar a primeira item do meu array
 
-document.write(`A primeira fruta é: ${frutas[3]}<hr>`);
+// document.write(`A primeira fruta é: ${frutas[3]}<hr>`);
 
-// Acessar o último item da lista 
+// // Acessar o último item da lista 
 
-document.write(`O último item da lista é: ${frutas[frutas.length-1]}<hr>`);
+// document.write(`O último item da lista é: ${frutas[frutas.length-1]}<hr>`);
 
-// Ler um array completo
-frutas.forEach(function(item, indice, array){
-    document.write(item, indice, );
-})
+// // Ler um array completo
+// frutas.forEach(function(item, indice, array){
+//     document.write(item, indice, );
+// })
+
